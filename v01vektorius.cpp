@@ -32,8 +32,22 @@ int main ()
     for (int i = 0; i < n;i++){
         cout << "Iveskite " << i + 1<< "-o studento varda ir pavarde: " << endl;
         cin >> laikinas.vardas >> laikinas.pavarde;
+        cout << "Pasirinkite kokiu budu norite ivesti pazymius: jei automatiskai iveskite 1 jei ranka iveskite 0" << endl;
+        cin >> sk;
+        if (sk == 1) {srand(time(0));
+                      for (int j = 0; j < 10; j++)
+                      laikinas.paz[j] = rand();
+          
       
-        cout << "Iveskite studento pazymius (kai baigsite iveskite bet kokia raide): "<<endl;
+          laikinas.paz.push_back(laik);
+          sum+=laik;
+      
+        cin.clear();
+        cin.ignore(10000,'\n');//neveikia todel reikia ivesti 0
+                      }
+        else 
+        cout << "Iveskite studento pazymius (kai baigsite iveskite bet kokia raide): " << endl;
+     
         while (cin >> laik)
         {
           laikinas.paz.push_back(laik);
