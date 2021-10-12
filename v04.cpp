@@ -82,7 +82,7 @@ cout << "Failo isvedimas su " + to_string(kiek) + " studentais  i vargsiukus uzt
 
 return 0;
 }
-
+//funkcijos
 //atsitiktiniai skaiciai
 int generate_random(){
 using hrClock = chrono::high_resolution_clock;
