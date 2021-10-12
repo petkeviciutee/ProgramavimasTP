@@ -8,6 +8,6 @@ Nuskaitomi duomenys iš failo "studentai.txt". Apskaičiuojamas pažymių vidurk
 # V03
 
 
-#V04
+# V04
 
 
